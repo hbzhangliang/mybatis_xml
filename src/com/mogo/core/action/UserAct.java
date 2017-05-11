@@ -28,6 +28,9 @@ public class UserAct {
                 .addObject("queryBean",queryBean)
                 .addObject("currentUser",userMng.getUserList("001"))
                 .addObject("list",userMng.getAllUserList());
+
+
+
     }
 
 
